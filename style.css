@@ -1,0 +1,32 @@
+body {
+    font-family: sans-serif;
+    background: var(--bg);
+    color: var(--fg);
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --bg: #ffffff;
+    --fg: #000000;
+}
+body.dark {
+    --bg: #121212;
+    --fg: #f1f1f1;
+}
+header, footer {
+    background: #2a9d8f;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+nav a, footer a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+.product-card {
+    background: #e0e0e0;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+}
